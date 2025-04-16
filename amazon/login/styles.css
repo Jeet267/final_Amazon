@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.logo-container {
+    margin: 20px 0;
+}
+
+.logo {
+    width: 120px;
+}
+
+.login-container {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    width: 100%;
+    height: 30px;
+    padding: 3px 7px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.continue-button {
+    width: 100%;
+    background-color: #FFD814;
+    border: 1px solid #FCD200;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.continue-button:hover {
+    background-color: #F7CA00;
+}
+
+.terms {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c45500;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #e7e7e7;
+    margin: 15px 0;
+}
+
+.business-section {
+    font-size: 13px;
+}
+
+.footer {
+    width: 100%;
+    border-top: 1px solid #e7e7e7;
+    margin-top: auto;
+    padding: 15px 0;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.create-account {
+    border: 2px solid gainsboro ; 
+    border-radius: 10px ;
+    width: 300px;
+    padding-left: 70px;
+
+
+}
