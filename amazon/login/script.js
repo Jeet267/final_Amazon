@@ -30,7 +30,7 @@ continuei.addEventListener("click", () =>{
     if (email_and_passwordchecker(pass)) {
    
         alert("login succesful")
-        window.location.href = 'index.html'
+        window.location.href = '../index.html'
         
 
     } else {
